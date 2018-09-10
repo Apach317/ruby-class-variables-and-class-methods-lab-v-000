@@ -23,4 +23,8 @@ class Song
   def genres
     @@genres.uniq
   end
+
+  def artists
+    @@artists.unique
+  end
 end
