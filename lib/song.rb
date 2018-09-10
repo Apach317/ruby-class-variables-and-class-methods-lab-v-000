@@ -30,14 +30,14 @@ class Song
 
   def self.genre_count
     @@genres.each do |gen|
-      @@genre_count[genre] = @@genres.count(gen)
+      @@genre_count[genre] = @@genres.count(genre)
     end
     @@genre_count
   end
 
   def self.artist_count
     @@artists.each do |art|
-      @@artists_count[artist] = @@artists.count(art)
+      @@artists_count[artist] = @@artists.count(artist)
     end
     @@artists_count
   end
