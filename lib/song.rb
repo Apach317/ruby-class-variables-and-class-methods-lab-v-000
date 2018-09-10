@@ -28,5 +28,17 @@ class Song
     @@artists.unique
   end
 
-  def
+  def genre_count
+    @@genres.each do |type|
+      @@genre_count[type] = @@genres.count(type)
+    end
+    @@genre_count
+  end
+
+  def artists_count
+    @@artists.each do |art|
+      @@artists_count[art] = @@artists.count(art)
+    end
+    @@genre_count
+  end
 end
